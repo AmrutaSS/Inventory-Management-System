@@ -34,7 +34,7 @@ Enter a command:
     * Add a state:
     ADD STATE "California"
 
-    * Viewing states::
+    * Viewing states:
     VIEW STATE
 
     * Viewing orders:
