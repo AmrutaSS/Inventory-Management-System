@@ -37,16 +37,16 @@ Enter a command:
     * Viewing states::
     VIEW STATE
 
-    *Viewing orders:
+    * Viewing orders:
     VIEW ORDERS
 
-    *Listing products:
+    * Listing products:
     LIST PRODUCTS
 
-    *Listing warehouses:
+    * Listing warehouses:
     LIST WAREHOUSES
 
-    *Warehouse information:
+    * Warehouse information:
     WAREHOUSE INFO W100001
 
     * Exit the application:
