@@ -22,35 +22,35 @@ Enter a command:
 
 3. Enter commands based on the available options. Here are some example commands:
 
-    * Add a product to the catalog:
-    ADD PRODUCT "Product 1" 1001 "Category 1" "Sub-category 1"
+    * Add a product to the catalog :
+        ADD PRODUCT "Product 1" 1001 "Category 1" "Sub-category 1"
 
-    * Add a warehouse:
-    ADD WAREHOUSE W100001 "Warehouse 1" "State 1" "(40.7128,-74.0060)"
+    * Add a warehouse :
+        ADD WAREHOUSE W100001 "Warehouse 1" "State 1" "(40.7128,-74.0060)"
 
-    * Add stock to a warehouse:
-    ADD STOCK 1001 W100001 50
+    * Add stock to a warehouse :
+        ADD STOCK 1001 W100001 50
 
-    * Add a state:
-    ADD STATE "California"
+    * Add a state :
+        ADD STATE "California"
 
-    * Viewing states:
-    VIEW STATE
+    * Viewing states :
+        VIEW STATE
 
-    * Viewing orders:
-    VIEW ORDERS
+    * Viewing orders :
+        VIEW ORDERS
 
-    * Listing products:
-    LIST PRODUCTS
+    * Listing products :
+        LIST PRODUCTS
 
-    * Listing warehouses:
-    LIST WAREHOUSES
+    * Listing warehouses :
+        LIST WAREHOUSES
 
-    * Warehouse information:
-    WAREHOUSE INFO W100001
+    * Warehouse information :
+        WAREHOUSE INFO W100001
 
-    * Exit the application:
-    EXIT
+    * Exit the application :
+        EXIT
 
 4. Follow the prompts and enter the required information for each command.
 
