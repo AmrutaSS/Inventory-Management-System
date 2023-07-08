@@ -251,11 +251,33 @@ function processCommand(command) {
   }
 }
 
+// function startREPL() {
+//   rl.question('Enter a command: ', command => {
+//     processCommand(command);
+//     startREPL();
+//   });
+// }
+
+
 function startREPL() {
-  rl.question('Enter a command: ', command => {
-    processCommand(command);
-    startREPL();
+  rl.on('close', () => {
+    console.log('Exiting...');
+    process.exit(0);
   });
+
+  const promptCommand = () => {
+    rl.question('Enter a command: ', command => {
+      processCommand(command);
+      if (command.toUpperCase() !== 'EXIT') {
+        promptCommand();
+      } else {
+        rl.close();
+      }
+    });
+  };
+
+  promptCommand();
 }
+
 
 startREPL();
